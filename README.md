@@ -106,12 +106,12 @@ Update `config.py` to source the key securely using `os.getenv("NVIDIA_API_KEY")
 
 ---
 
-## 🧠 Enterprise Resume & Interview Talking Points
+
 
 ### Project Summary
 > Developed an enterprise-grade multi-agent software validation pipeline utilizing **CrewAI** and **DeepSeek-R1** to automate full-lifecycle code quality assurance. The platform blends deterministic **Abstract Syntax Tree (AST)** engineering with heuristic large language models to construct semantic edge-case test suites, conduct vulnerability scans, and generate executable pytest suites, reducing manual test-writing overhead by up to 70%.
 
-### Core Technical Achievements to Highlight:
+
 *   **Multi-Agent Choreography:** Designed a 4-agent sequential workflow assigning granular, specialized domains (Syntax Isolation, Edge-Case Synthesis, Security Auditing, Test Compilation) to mitigate LLM hallucinations.
 *   **AST Isolation Layer:** Created a static analysis preprocessing step using Python’s native `ast` library to extract class and functional metadata, injecting strict boundary parameters directly into the agent prompt context.
 *   **Dynamic Test Runner:** Integrated an automated test execution subsystem using isolated subprocess sandboxing to compile, run, and feedback execution-time standard outputs (`stdout`/`stderr`) dynamically.
@@ -119,8 +119,5 @@ Update `config.py` to source the key securely using `os.getenv("NVIDIA_API_KEY")
 
 ---
 
-## 🤝 Contribution and Architecture Scaling
-
-This application is engineered for horizontal scale. Future sprints include containerizing the test runtime within ephemeral **Docker** containers for execution security, and introducing a **Feedback Loop Agent** to parse pytest execution stack traces to self-heal failing test scripts automatically.
-
+##
 Licensed under the MIT License.
