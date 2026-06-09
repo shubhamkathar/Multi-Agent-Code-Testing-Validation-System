@@ -1,10 +1,10 @@
-# 🧠 AI Multi-Agent Code Testing & Validation System
+#  AI Multi-Agent Code Testing & Validation System
 
 An advanced, production-grade multi-agent AI system that automates static code analysis, semantic test case generation, vulnerability scanning, and executable unit test generation. Powered by **CrewAI**, **DeepSeek-R1**, **Flask**, and **Streamlit**.
 
 ---
 
-## 🚀 Architectural Blueprint & Data Flow
+##  Architectural Blueprint & Data Flow
 
 ```text
        [ User Python Code Input ]
@@ -39,7 +39,7 @@ An advanced, production-grade multi-agent AI system that automates static code a
 
 ---
 
-## 🛠️ Production Tech Stack
+##  Production Tech Stack
 
 *   **AI Orchestration:** CrewAI (Sequential Process Mapping)
 *   **LLM Engine:** DeepSeek-R1 (via NVIDIA NIM Inference API)
@@ -70,7 +70,7 @@ ai-multi-agent-testing/
 
 ---
 
-## ⚡ Quick Start & Deployment
+##  Quick Start & Deployment
 
 ### 1. Environment Initialization
 ```bash
