@@ -21,7 +21,7 @@ An advanced, production-grade multi-agent AI system that automates static code a
            │         │         │
            │         ├── Code Analyzer Agent  ──► Builds syntactic profiles
            │         ├── Test Designer Agent  ──► Identifies edge-cases & limits
-           │         ├── Security Agent       ──► Scans for CVEs & vulnerabilities
+           │         ├── Security Agent      
            │         └── Pytest Engineer Agent──► Generates executable code
            │
            ▼
@@ -39,7 +39,7 @@ An advanced, production-grade multi-agent AI system that automates static code a
 
 ---
 
-##  Production Tech Stack
+##  Tech Stack
 
 *   **AI Orchestration:** CrewAI (Sequential Process Mapping)
 *   **LLM Engine:** DeepSeek-R1 (via NVIDIA NIM Inference API)
